@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #336abd;
+    content: "";
+    transition: width 0.2s;
+  }
+
+.underlineHover:hover {
+  color: #0d0d0d;
+}
+
+.underlineHover:hover:after{
+  width: 100%;
+}
+.topbar {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.main {
+  background-color: rgb(42, 40, 49);
+  color: white;
+  padding-top: 150px;
+}
+
+.mainText {
+  font-size: 30px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.anidefterim {
+  padding-top: 50px;
+}
+
+.ani {
+  background-color: rgb(59, 57, 66);
+  border-radius: 25px;
+}
+
+.taskbox {
+  padding: 15px;
+  background-color: rgb(59, 57, 66);
+  border-radius: 25px;
+}
+
+
+.thisFooter {
+    background-color: rgb(27, 25, 32);
+    color: white;
+    text-align: center;
+    padding: 10px; 
+}
+
+.thisNavbar {
+    background-color: rgb(27, 25, 32);
+}
+

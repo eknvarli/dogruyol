@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topbarr {
+    background-color: rgb(27, 25, 32);
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.area {
+    background-color: rgb(42, 40, 49);
+    padding-top: 150px;
+    color: white;
+}
+
+.sehirler {
+    padding-top: 25px;
+    padding-bottom: 150px;
+}
+
+.appFooter {
+    background-color: rgb(27, 25, 32);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.bg-ac {
+    background-color: rgb(59, 57, 66);
+}
+
+.card img {
+    padding: 25px;
+    height: 275px;
+}
